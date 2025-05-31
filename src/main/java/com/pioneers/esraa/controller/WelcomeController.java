@@ -17,4 +17,9 @@ public class WelcomeController {
     public String welcomeEmployeeApi(@PathVariable String name) {
         return "Welcome " + name + " to our Tech Pioneers Hub Company!!";
     }
+
+    @GetMapping("instructor/{name}")
+    public String welcomeTheInstructorApi(@PathVariable String name) {
+        return "Welcome " + name + " to our Tech Pioneers Hub Company!!";
+    }
 }
