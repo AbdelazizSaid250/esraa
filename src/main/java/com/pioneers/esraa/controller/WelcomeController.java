@@ -19,7 +19,7 @@ public class WelcomeController {
     }
 
     @GetMapping("instructor/{name}")
-    public String welcomeInstructorApi(@PathVariable String name) {
+    public String welcomeTheInstructorApi(@PathVariable String name) {
         return "Welcome " + name + " to our Tech Pioneers Hub Company!!";
     }
 }
